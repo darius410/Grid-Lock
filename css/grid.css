@@ -1,0 +1,172 @@
+/*
+.threeCol{
+      display: grid;
+    
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows: 300px;
+        background-color: #fff;
+        grid-gap:2px;
+        color: #444;
+}
+
+.fourCol{
+    display: grid;
+    grid-template-columns: repeat(4, 100px ) ;
+  
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+*/
+*{margin:0;}
+.wrapper{
+  display: grid;
+    
+      grid-template-columns:30% 1fr 1fr;
+        grid-template-rows:50vmin 50vmin 110vh;
+        background-color: #fff;
+        grid-gap:2px;
+       
+        color: #444;
+  
+}
+
+.box{
+
+  display:flex;
+align-items:   center;
+  justify-content:center;
+ 
+}
+.a{
+  
+  background-color:green;
+ 
+  
+grid-row-start:1;
+  grid-row-end:3;
+  
+  
+}
+.b{background-color:orange;
+grid-column:2 ;
+}
+.c{background-color:red;
+grid-column:3 ;
+}
+.d{background-color:blue;
+grid-column: 2;
+grid-row:2;
+}
+.f{background-color:#F22613;
+grid-column: 1;
+grid-row:3;
+}
+.e{background-color:pink;
+grid-column: 3;
+grid-row:2;
+}
+.inner{
+  grid-column:2 / 4;
+  
+  grid-template-columns:1;
+  grid-template-rows:200px;
+ 
+}
+.one{background-color:red;
+grid-column: 1;
+grid-row-start:3;
+  grid-column-end:4;
+   height:50%;
+  
+    
+}
+.two{background-color:purple;
+grid-column: 2;
+grid-row-start:3;
+  grid-column-end:4;
+   height:50%;
+    
+}
+
+.logoClaims{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:30vh;
+  grid-gap:2px;
+  justify-content:center;
+  
+}
+
+.company{
+  background-color:#663399;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.coke{
+    grid-column:1 / span 1;
+  grid-row:1;
+}
+.pepsi{
+    grid-column:2 /span 1;
+    grid-row:1;
+}
+.fanta{
+    grid-column:3 /span 1;
+  grid-row:1;
+}
+.ginger{
+    grid-column: 4 /span 1;
+  grid-row:1;
+}
+.hero2{
+  display:grid;
+    
+  grid-template-rows:50vmin;
+  background:url(../img/gaming-pattern.png);
+    
+    
+    
+}
+.wrapper2{
+     display: grid;
+    
+      grid-template-columns:30% 1fr 1fr 1fr;
+        grid-template-rows:35vmin 35vmin 35vmin 35vmin;
+        background-color: #fff;
+        grid-gap:2px;
+       
+        color: #444;
+    
+}
+.a2{
+    grid-column:1;
+    grid-row:span 4;
+    background-color: #674172;
+}
+.g {
+    grid-column: 4 / span 1 ;
+    grid-row: 1;
+    background-color: #019875;
+}
+.h {
+    grid-column: 4 / span 1 ;
+    grid-row: 2;
+    background-color: #36D7B7;
+}
+.b2{
+    grid-column:2 ;
+    background-color: #4DAF7C;
+}
+.i{
+    grid-column:3 /span 2;
+    grid-row:3 / span 2;
+    background-color: #4DAF7C;
+}
+.f2{
+    grid-column:2 / span 1;
+    grid-row: 4;
+    background-color: #4DAF7C;
+}
+.j{ grid-column: 2 / span 1 ;
+    grid-row: 3;
+    background-color: #36D7B7;}
