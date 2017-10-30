@@ -1,0 +1,172 @@
+
+/* min-width 641px, medium screens */
+// Medium screens
+@media only screen and (min-width: 40.063em) and (max-width: 64em){ 
+
+ .row2 {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+}
+
+.row3 {
+  width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+    
+}
+
+    .triangleL{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 35px 40px 35px 0;
+
+border-color: transparent #FFFFFF transparent transparent;
+    position: relative;
+    right: 104%;
+    
+    
+}
+
+.triangleR{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 35px 0 35px 40px;
+border-color: transparent transparent transparent #FFFFFF;
+    position: relative;
+    left: 20px;
+}
+    .callToActionImage{
+    background: url(../img/appScreens.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+   
+}
+.callToAction{
+    
+    margin-top: 50px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    width: 100%;
+    height: 45vmin;
+    margin-bottom: 50px;
+    
+}
+
+.callToAction h1{
+    border: solid 2px #f1c40f;
+}
+
+.callToAction p{
+ margin: 20px 0px 20px 0px;
+}
+
+div.callToAction2{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vmin;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+
+.callToAction2 p{
+    color:white;
+    font-size: 22px;
+}
+
+button.button{
+    position: relative;
+    top:70px;
+    width: 200px;
+     font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+
+button.buttonForm{
+     position: relative;
+   
+    
+    width: 150px;
+    background-color: #f1c40f;
+    height: 50px;
+     font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.buttonSharp{
+    border-radius: 0px;
+}
+
+.button180{
+    width: 180px;
+}
+
+
+.custReview{
+    margin-top: 50px;
+    
+}
+
+.custReview h3,custReview p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+nav.orbit-bullets{
+    
+    width: 100%;
+}
+
+.orbit-previous, .orbit-next{
+    color:#f1c40f;
+}
+.orbit-slide{
+    border-left: solid #f1c40f 8px;
+    padding-left: 20px;
+}
+
+.contact{
+   
+  
+    
+   
+}
+
+.map{
+    background:url(../img/bal-map-fires-during-april-rioting-in-baltimore-city-20150520);
+    background-position: -400px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vmin;
+    grid-column: 1 /span 4;
+    grid-row: 1;
+}
+
+
+ .form{
+    
+    padding-right:70px;
+    max-width: 1200px;
+    
+}
+    .contactGrid{
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
+
+    textarea{
+        
+   height:  180px;
+
+}
+
+    .footerWrap{
+        max-width: 100%;;
+    }
+
+} 
+

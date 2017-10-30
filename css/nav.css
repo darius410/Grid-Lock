@@ -52,10 +52,16 @@
   }
 }
 
+@media only screen and (max-width: 766px) {
+  .logo {
+    float: none;
+  }
+}
 nav {
   float: right;
   width: 60%;
 }
+
 @media only screen and (max-width: 766px) {
   nav {
     width: 100%;
@@ -127,15 +133,24 @@ nav ul a {
   position: relative;
   padding: 0 2%;
 }
+.row4 {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  color: #8f8f8f;
+/*  color: #8f8f8f;*/
   background: white;
-  font-family: "Cardo", serif;
+/*  font-family: "Cardo", serif;*/
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
@@ -163,14 +178,14 @@ p {
 
 .hero {
   position: relative;
-  background: url(http://www.philippefercha.com/cd/toggle-menu-bg.jpg) no-repeat center center fixed;
+  background: url(/img/tree-2889063_1920.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   text-align: center;
   color: #fff;
-  padding-top: 110px;
-  min-height: 500px;
+  padding-top: 190px;
+  min-height: 100vmin;
   letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
 }
@@ -180,8 +195,8 @@ p {
 }
 .hero h1 span {
   font-size: 25px;
-  color: #e8f380;
-  border-bottom: 2px solid #e8f380;
+  color: white;
+  border-bottom: 3px solid #f1c40f;
   padding-bottom: 12px;
   line-height: 3;
 }
@@ -192,7 +207,7 @@ p {
   width: 26px;
   height: 46px;
   border-radius: 13px;
-  border: 2px solid #e8f380;
+  border: 2px solid #f1c40f;
   position: absolute;
   bottom: 40px;
   position: absolute;
@@ -202,10 +217,10 @@ p {
 .mouse span {
   display: block;
   margin: 6px auto;
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   border-radius: 4px;
-  background: #e8f380;
+  background: #f1c40f;
   border: 1px solid transparent;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
